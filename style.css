@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+body{
+    width: 100vw;
+}
+@media screen {
+    
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    font-size: 15px;
+}
+.velar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.velar img{
+    width: 75px;
+}
+nav{
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+}
+nav ul li a:hover{
+    color: rgb(121, 180, 247);
+    font-style: italic;
+}
+ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 50px;
+}
+.music input{
+    height: 33px;
+    width: 500px;
+}
+.btn{
+    margin: 0 0 0 10px;
+    height: 25px;
+    width: 70px;
+}
+
+
+.golu{
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 300px;  
+}
+.golu button{
+    height: 45px;
+    background: none;
+    border: none;
+}
+.golu button :hover{
+    background-color: rgb(0, 0, 255);
+}
+.golu img{
+    width: 50px;
+    height: auto;
+    
+}
+.login button a{
+    text-decoration: none;
+    color: #2874f0;
+}
+.login button :hover{
+    font-style: italic;
+}
+.login button{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 0 0 0 5px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 40px;
+    height: 50px;
+}
+
+
+main{
+    /* height: 200vh; */
+    background-color: whitesmoke
+}
+.container button{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 10px 0 0 60px;
+}
+.container button a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.container :hover{
+    color: #2874f0;
+}
+.container a{
+    color: black;
+}
+.container img{
+    height: 70px;
+}
+.container{
+    background-color: white;
+    padding: 0 0 0 100px;
+    height: 15vh;
+}
+.slider{
+    width: 100vw;
+    height: 39vh;
+    margin: 2vh 0 0 0;
+}
+.slider img{
+    width: 50vw;
+    height: 35vh;
+    margin: 2vh;
+}
+.slider button{
+    height: 39vh;
+    width: 100vw;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.bar{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    background-color: white;
+    margin: 2vh 0 0 0;
+    height: 6vh;
+    padding: 17px 0 0 30px;
+}
+.box{
+    background-color: white;
+    margin: 2vh 0 0 0;
+    height: 30vh;
+
+}
+.box button a{
+    text-decoration: none;
+    color: black;
+}
+.box button img{
+    height: 15vh;
+}
+.box button{
+    height: 30vh;
+    width: 12vw;
+    margin: 0 0 0 0.1vw;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.box button :hover img{
+    height: 17vh;
+}
+.footer{
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
